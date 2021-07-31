@@ -1,0 +1,8 @@
+#root {
+  height: 100%;
+}
+.diagram-component {
+  width: 100%;
+  /* calc前后都需要一个空格 */
+  height: 100%;
+}

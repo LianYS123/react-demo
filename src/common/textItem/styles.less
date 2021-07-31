@@ -1,0 +1,18 @@
+.l-text-item {
+  & + & {
+    margin-top: 0.875em;
+  }
+  &-label {
+    margin-right: 0.5em;
+    &-col {
+      text-align: right;
+    }
+    &-colon::after {
+      content: ':';
+      position: relative;
+      top: -0.5px;
+      margin: 0 .5em 0 .14em;
+      // margin-right: 0.02em;
+    }
+  }
+}
